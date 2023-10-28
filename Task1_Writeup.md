@@ -39,6 +39,13 @@ We were given the text:xqkwKBN{z0bib1wv_l3kzgxb3l_7l140864}<br>
 So it looked like the normal flag so x-->p which is adding 18 or shifting by r.thus using an online caeser cipher we got the flag:<br>
 picoCTF{r0tat1on_d3crypt3d_7d140864}
 
+<b>Q7.rail-fence<br></b>
+![Alt text](image.png)
+<br>so according to this it can be decoded by hand or using an online tool;on decoding this we get:<BR>The flag is: WH3R3_D035_7H3_F3NC3_8361N_4ND_3ND_4A76B997<br>
+<b>picoCTF{WH3R3_D035_7H3_F3NC3_8361N_4ND_3ND_4A76B997}</b>
+
+
+
 <b>Web Exploitation</b>
 Q1.Cookies
 picoCTF{3v3ry1_l0v3s_c00k135_bb3b3535}
