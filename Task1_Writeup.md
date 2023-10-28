@@ -33,3 +33,12 @@ picoCTF{R0UND_N_R0UND_B6B25531}
 <b>Q5.Morse-code<br></b>
 The audio file provided can be opened in audio file editing software like audacity,where we can see the diffeent pulses of the morse code,and thus decode it to get
 picoCTF{wh47_h47h_90d_w20u9h7}
+
+<b>Q6.rotation<br></b>
+We were given the text:xqkwKBN{z0bib1wv_l3kzgxb3l_7l140864}<br>
+So it looked like the normal flag so x-->p which is adding 18 or shifting by r.thus using an online caeser cipher we got the flag:<br>
+picoCTF{r0tat1on_d3crypt3d_7d140864}
+
+<b>Web Exploitation</b>
+Q1.Cookies
+picoCTF{3v3ry1_l0v3s_c00k135_bb3b3535}
