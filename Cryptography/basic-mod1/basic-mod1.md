@@ -18,8 +18,7 @@ which can be decoded using the key provided character set: 0-25 is the alphabet 
 we get "R0UND_N_R0UND_B6B25531" ie the flag is <br>
 picoCTF{R0UND_N_R0UND_B6B25531}
 ## Code Used
-'''
-
+```
 class mod37calculator{
     static int mod(int a)
     {
@@ -55,5 +54,4 @@ class mod37calculator{
         
     }
 }
-
-'''
+```
