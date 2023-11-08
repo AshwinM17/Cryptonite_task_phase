@@ -13,7 +13,7 @@ We are given large values for N(=p*q) and C(Cipher Text).but e is small<br>
 as e is 3 .we can check by cubing and adding the cipher text and converting to ascii and check if 'pico' is there or not.
 
 The script aims to find the padding value by iterating over a range of possible values of k from 0 to 9,999.
-For each k, it performs a calculation to reverse the encryption operation, effectively computing m as the e-th root of (k * N + c). This operation undoes the RSA encryption and extracts the padded message.
+For each k, it performs a calculation to reverse the encryption operation, effectively computing m as the e-th(3rd) root of (k * N + c). This operation undoes the RSA encryption and extracts the padded message.
 The result m is then converted to ASCII using the int_to_ascii function.
 If the string "pico" is found in the ASCII representation of m, it means the correct padding has been found, and the value of k is recorded as the padding.
 The loop breaks when the correct padding is found.
