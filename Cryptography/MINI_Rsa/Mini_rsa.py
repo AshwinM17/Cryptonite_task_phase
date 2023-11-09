@@ -13,11 +13,11 @@ def int_to_ascii(m):
     )  # Hex to Ascii
     return m_ascii
 
-# Find padding
+
 getcontext().prec = 700  # Increase precision
 padding = 0
 for k in range(0, 10_000):
-    m = pow(k * N + c, 1 / e)
+    m = pow(k * N + c, 1 / e)  #as c=(m^e)modN
 
     m_ascii = int_to_ascii(m)
 
