@@ -22,7 +22,7 @@ we had even set the precision to 700 so that no error is present
 so we get the flag **picoCTF{e_sh0u1d_b3_lArg3r_6e2e6bda**
 and the value of k came out to be 3533
 
-# RSA Algorithm
+## RSA Algorithm
 RSA algorithm uses the following procedure to generate public and private keys:
 
 Select two large prime numbers, p and q.
