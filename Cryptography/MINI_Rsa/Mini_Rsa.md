@@ -21,7 +21,7 @@ The loop breaks when the correct padding is found.
 we had even set the precision to 700 so that no error is present
 so we get the flag **picoCTF{e_sh0u1d_b3_lArg3r_6e2e6bda**
 and the value of k came out to be 3533
-
+![Alt text](<Screenshot 2023-11-11 004831.png>)
 ## RSA Algorithm
 RSA algorithm uses the following procedure to generate public and private keys:
 
