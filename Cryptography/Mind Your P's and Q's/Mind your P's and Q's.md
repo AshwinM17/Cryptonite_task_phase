@@ -4,7 +4,7 @@ In RSA, a small e value can be problematic, but what about N? Can you decrypt th
 ## Hint
 Bits are expensive, I used only a little bit over 100 to save money
 # Solution
-Data we dot in the [values](https://mercury.picoctf.net/static/51d68e61bb41207a55f24e753f07c5a3/values)<br>
+Data we got in the [values](https://mercury.picoctf.net/static/51d68e61bb41207a55f24e753f07c5a3/values)<br>
 file is Decrypt my super sick RSA:<br>
 c:62324783949134119159408816513334912534343517300880137691662780895409992760262021<br>
 n:1280678415822214057864524798453297819181910621573945477544758171055968245116423923<br>
