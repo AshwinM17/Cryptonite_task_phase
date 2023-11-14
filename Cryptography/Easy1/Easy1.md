@@ -41,4 +41,7 @@ SOLVECRYPTO<br>
 I first tried searching each ith letter from both key and encrypted flag and got MTUFBSQOJGP which was not the flag<br> so i searched Cipher which used a table and came across  **tabula recta, Vigenère square or Vigenère table**
 I used an online [decoder](https://www.dcode.fr/vigenere-cipher) to decode UFJKXQZQUNB using the key SOLVECRYPTO to get CRYPTOISFUN<br>
 ![Alt text](<Screenshot 2023-11-11 004343.png>)
-**picoCTF{CRYPTOISFUN}**
+this decoderUSED THE ALGORITHM:take the first letter of the ciphertext and the first letter of the key, and subtract their value (letters have a value equal to their position in the alphabet starting from 0). If the result is negative, add 26 (26=the number of letters in the alphabet), the result gives the rank of the plain letter.
+Example: Take the first letters of the ciphertext U (value = 20) and the key S (value = 18)  and subtract them (20-18=2), the letter of value 2 is C.
+<br>Thus the flag is:
+<br>**picoCTF{CRYPTOISFUN}**
